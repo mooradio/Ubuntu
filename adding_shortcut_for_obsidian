@@ -1,0 +1,11 @@
+#Create a appimagename.desktop file in /home/username/.local/share/applications directory
+#Copy following inside the document
+
+[Desktop Entry]
+Exec=/home/username/Downloads/Obsidian-0.9.20.AppImage
+Icon=lucidchart #or any desired icon
+Type=Application
+Terminal=true
+Name=Obsidian
+Categories=Development;
+MimeType=x-scheme-handler/obsidian;text/html;
