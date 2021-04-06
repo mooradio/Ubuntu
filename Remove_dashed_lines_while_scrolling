@@ -1,0 +1,6 @@
+# To remove awfull dashed-lines from top and bottom of a file manager while scrolling add following script to the end of this file ~/.config/gtk-3.0/gtk.css
+
+scrolledwindow undershoot.top,
+scrolledwindow undershoot.right,
+scrolledwindow undershoot.bottom,
+scrolledwindow undershoot.left { background-image: none; }
