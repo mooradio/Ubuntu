@@ -2,10 +2,13 @@
 #Copy following inside the document
 
 [Desktop Entry]
-Exec=/home/username/Downloads/Obsidian-0.9.20.AppImage
-Icon=lucidchart #or any desired icon
-Type=Application
-Terminal=true
 Name=Obsidian
-Categories=Development;
-MimeType=x-scheme-handler/obsidian;text/html;
+Exec=/home/murad/Downloads/Obsidian-0.11.13.AppImage %u
+Terminal=false
+Type=Application
+Icon=/home/murad/Pictures/obsidian.png
+StartupWMClass=obsidian
+X-AppImage-Version=0.11.13
+Comment=Obsidian
+Categories=Office;
+MimeType=text/html;x-scheme-handler/obsidian;
