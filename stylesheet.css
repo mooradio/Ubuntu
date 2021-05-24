@@ -1,0 +1,20 @@
+/* This is a stylesheet file for the gnome extension Workspaces Bar by fthx to match Nord theme.
+Just replace existing file with this one in the .local/share/gnome-shell/extensions/workspaces-bar@fthx/ directory. */
+
+.desk-label-active {
+  margin-left: 4px;
+  margin-right: 4px;
+  background-color: rgba(76, 86, 106, 1);
+  color: rgba(204, 204, 204, 1);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 2px;
+}
+
+.desk-label-inactive {
+  margin-left: 4px;
+  margin-right: 4px;
+  background-color: rgba(46, 52, 64, 1);
+  color: rgba(156, 156, 156, 1);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 2px;
+}
