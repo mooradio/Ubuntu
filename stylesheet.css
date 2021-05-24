@@ -1,5 +1,6 @@
 /* This is a stylesheet file for the gnome extension Workspaces Bar by fthx to match Nord theme.
-Just replace existing file with this one in the .local/share/gnome-shell/extensions/workspaces-bar@fthx/ directory. */
+Just replace existing file with this one in the .local/share/gnome-shell/extensions/workspaces-bar@fthx/ directory. 
+Change workspace names with | gsettings set org.gnome.desktop.wm.preferences workspace-names "['dev', 'web', 'sci', 'etc']" | */
 
 .desk-label-active {
   margin-left: 4px;
