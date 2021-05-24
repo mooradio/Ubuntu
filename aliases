@@ -34,3 +34,7 @@ alias lt='exa --tree --level=2 --icons --group-directories-first'               
 
 # Batcat alias
 alias bat='batcat --theme="TwoDark"'
+
+# Remove and move
+alias rm='rm -i'
+alias mv='mv -i'
