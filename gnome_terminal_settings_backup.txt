@@ -1,0 +1,39 @@
+[legacy]
+mnemonics-enabled=true
+
+[legacy/profiles:]
+default='0151da87-dcc8-4906-ba21-d57937b3b001'
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', '0151da87-dcc8-4906-ba21-d57937b3b001']
+
+[legacy/profiles:/:0151da87-dcc8-4906-ba21-d57937b3b001]
+background-color='rgb(46,52,64)'
+background-transparency-percent=2
+bold-is-bright=true
+default-size-columns=120
+default-size-rows=36
+font='Fira Code 13'
+foreground-color='rgb(143,188,187)'
+palette=['rgb(46,52,64)', 'rgb(59,66,82)', 'rgb(38,162,105)', 'rgb(76,86,106)', 'rgb(216,222,233)', 'rgb(229,233,240)', 'rgb(236,239,244)', 'rgb(143,188,187)', 'rgb(136,192,208)', 'rgb(129,161,193)', 'rgb(51,209,122)', 'rgb(191,97,106)', 'rgb(42,123,222)', 'rgb(235,203,139)', 'rgb(163,190,140)', 'rgb(180,142,173)']
+scrollbar-policy='never'
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='Nord'
+
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(43,48,60)'
+background-transparency-percent=4
+bold-is-bright=true
+cursor-blink-mode='on'
+cursor-shape='block'
+default-size-columns=120
+default-size-rows=35
+font='Fira Code 14'
+foreground-color='rgb(136,192,208)'
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+scrollbar-policy='never'
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
