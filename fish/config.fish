@@ -1,0 +1,38 @@
+# Aliases for apt
+alias update="sudo apt-get update"
+alias upgrade="sudo apt-get upgrade"
+alias dist-upgrade="sudo apt-get dist-upgrade"
+alias autoremove="sudo apt-get autoremove"
+alias autoclean="sudo apt-get autoclean"
+alias clean="sudo apt-get clean"
+
+# Conservation mode
+alias conservation_on="sudo echo 1 > /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode"
+alias conservation_off="sudo echo 0 > /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode"
+
+# Temperature
+alias temp="watch sensors '&& sudo hddtemp /dev/sd?'"
+alias temp_disks="sudo hddtemp /dev/sd?"
+
+# Battery
+alias battery="sudo watch tlp-stat -b"
+
+### Exa aliases
+# general use
+alias ls='exa --icons --group-directories-first'                                                         # ls
+alias l='exa -lbF --git --icons --group-directories-first'                                               # list, size, type, git
+alias ll='exa -lbgF --git --icons --group-directories-first'                                             # long list
+alias llm='exa -lbgF --git --sort=modified --icons --group-directories-first'                            # long list, modified date sort
+alias la='exa -lbhHigUmuSa --time-style=long-iso --git --color-scale --icons --group-directories-first'  # all list
+alias lx='exa -lbhHigUmuSa@ --time-style=long-iso --git --color-scale --icons --group-directories-first' # all + extended list
+
+# speciality views
+alias lS='exa -1 --icons --group-directories-first'			                                 # one column, just names
+alias lt='exa --tree --level=2 --icons --group-directories-first'                                        # tree
+
+# Batcat alias
+alias bat='batcat --theme="TwoDark"'
+
+# Remove and move
+alias rm='rm -i'
+alias mv='mv -i'
