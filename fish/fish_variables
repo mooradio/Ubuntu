@@ -1,6 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR EDITOR:nvim
+SETUVAR --export EDITOR:nvim
 SETUVAR PURE_CMD_MAX_EXEC_TIME:5
 SETUVAR PURE_PROMPT_SYMBOL:\u276f
 SETUVAR __fish_initialized:3100
